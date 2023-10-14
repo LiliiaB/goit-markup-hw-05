@@ -698,6 +698,7 @@ margin-bottom: 24px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 4px;
 
 }
 .check-text a { 
@@ -712,6 +713,7 @@ margin-bottom: 24px;
   .check-input:checked + .check-text span {
    fill: #F4F4FD;
   background-color: var(--OCEAN, #404BBF);
+  border: none;
 
   }
 
@@ -745,9 +747,6 @@ margin-top: 8px;
 
 }
 
-.modal-input-comment { 
-    margin-top: 8px;
-}  
 
 .modal-input {
     width: 100%;
@@ -774,6 +773,7 @@ margin-top: 8px;
     padding: 8px 16px;
     outline: transparent; 
     resize:none;
+    margin-top: 8px;
       }
 
 .modal-input-text:focus {
